@@ -1,0 +1,3 @@
+## 2024-05-18 - Missing Form Label Associations
+**Learning:** In simple custom HTML forms, it's very easy to forget to associate `<label>` tags with their corresponding `<input>` or `<textarea>` tags using `for` and `id` attributes. This breaks screen reader accessibility and prevents users from clicking the label to focus the input, which is a key interaction pattern, especially on mobile.
+**Action:** Always ensure every form input has a unique `id` and its corresponding `<label>` uses the `for` attribute referencing that `id`. This is a low-effort, high-impact accessibility and usability fix.
