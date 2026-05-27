@@ -1,0 +1,3 @@
+## 2024-03-24 - Added explicit for/id bindings to form inputs
+**Learning:** Found an accessibility issue pattern in the app's components where custom `.fg` form groups with `<label class="flabel">` and `<input class="finput">` were missing explicit `for` and `id` bindings. This causes issues for screen readers to associate the label with the input and prevents users from clicking the label to focus the input.
+**Action:** Ensure explicit `for` and `id` bindings are implemented between labels and inputs in custom form groups to maintain accessibility and improve user interaction.
