@@ -1,0 +1,3 @@
+## 2025-01-20 - Explicit ID bindings required for custom .fg form groups
+**Learning:** The custom `.fg` form group pattern used in this design system (with adjacent `<label class="flabel">` and `<input class="finput">`) relies on explicit `for` and `id` bindings for accessibility. Without these bindings, screen readers cannot properly associate the label with the input, and users cannot click the label to focus the input field, which degrades the UX and accessibility.
+**Action:** When working with the `.fg` form pattern or any adjacent label/input components in this app, always ensure explicit `for` and `id` attributes are added to bind them correctly.
