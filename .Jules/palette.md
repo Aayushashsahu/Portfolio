@@ -1,0 +1,3 @@
+## 2024-11-20 - Ensure Explicit Label Bindings
+**Learning:** For custom `.fg` form group patterns lacking standard semantic structure, screen readers fail to associate labels and inputs properly without explicit `for` and `id` bindings. This pattern is common in bespoke styled forms.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between `<label class="flabel">` and their respective `<input class="finput">` elements to maintain accessibility.
