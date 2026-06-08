@@ -1,0 +1,3 @@
+## 2026-06-08 - Explicit Form Label Bindings
+**Learning:** Found a specific pattern in this app where custom `.fg` form groups with `.flabel` and `.finput` classes lack explicit `for` and `id` bindings. This breaks screen reader associations and prevents clicking labels to focus inputs, especially problematic on smaller screens or for users with motor impairments.
+**Action:** Always ensure explicit `for` and `id` attributes connect labels to their respective inputs/textareas within `.fg` form groups, rather than relying solely on visual proximity.
