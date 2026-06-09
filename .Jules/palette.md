@@ -1,0 +1,3 @@
+## 2026-06-09 - Accessibility bindings for custom form groups
+**Learning:** In projects that don't rely on standard accessibility component libraries or UI frameworks, custom form groupings like `.fg` typically omit explicit `for` and `id` bindings between `<label class="flabel">` and `<input class="finput">`. This breaks screen reader associations and prevents clicking the label to focus the input.
+**Action:** When implementing or refining custom form groupings, always explicitly add corresponding `for` and `id` attributes to tightly couple custom labels to their respective inputs/textareas to ensure basic accessibility standards are met.
