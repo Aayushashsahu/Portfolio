@@ -1,0 +1,3 @@
+## 2024-05-16 - Explicit Form Bindings
+**Learning:** Found that custom form groups `.fg` styling `<label class="flabel">` and `<input class="finput">` elements did not include explicit `for` and `id` bindings. This causes screen readers to have difficulty associating the label text with the input area, reducing accessibility.
+**Action:** Always ensure that any custom styled form label and input/textarea pairs include explicit `for` and `id` attribute bindings linking them together.
