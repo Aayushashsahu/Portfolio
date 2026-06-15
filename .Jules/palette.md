@@ -1,0 +1,3 @@
+## 2024-03-24 - Explicit Form Label Bindings
+**Learning:** Custom `.fg` form groups with `.flabel` and `.finput` components inherently lack accessibility unless labels are explicitly associated with their corresponding inputs. Screen readers rely on this connection to identify the purpose of form fields. Without it, the form context is lost to visually impaired users, despite appearing functional visually.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs/textareas to maintain compliance and inclusive design.
