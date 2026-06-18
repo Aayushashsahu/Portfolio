@@ -1,0 +1,3 @@
+## 2024-03-21 - Explicit Form Label Bindings
+**Learning:** In the current custom `.fg` form group pattern, inputs and labels lacked explicit `for` and `id` bindings. This creates a significant barrier for screen reader users and affects standard keyboard usability (like clicking a label to focus the input).
+**Action:** Always ensure that custom form groups have correctly paired `id`s on input/textarea elements and `for` attributes on their corresponding labels.
