@@ -1,0 +1,3 @@
+## 2025-02-24 - Explicit Form Label Bindings
+**Learning:** Custom form group patterns (like `.fg` wrappers with `.flabel` and `.finput`) often miss native accessibility features. Without explicit `for` and `id` bindings, screen readers cannot reliably associate the label text with the input field, and users miss the expanded click target area that clicking a label normally provides.
+**Action:** Always ensure explicit `for` and `id` attributes are implemented when building or reviewing custom form inputs to improve both screen reader accessibility and usability on touch/mouse devices.
