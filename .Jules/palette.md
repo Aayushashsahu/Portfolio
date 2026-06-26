@@ -1,0 +1,3 @@
+## 2025-02-24 - Missing form label associations in custom inputs
+**Learning:** Found a recurring pattern where custom form groups (`.fg`) visually paired `.flabel` and `.finput`/`.ftarea` but lacked semantic `for` and `id` connections. This negatively impacts screen reader users who need explicit label-to-input association to understand what an input field is for.
+**Action:** Always ensure any form inputs or textareas are explicitly associated with their corresponding labels using matching `id` and `for` attributes, regardless of their visual proximity or styling.
