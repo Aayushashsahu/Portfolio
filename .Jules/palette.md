@@ -1,0 +1,3 @@
+## 2024-10-24 - Form Label Association Pattern
+**Learning:** This application uses a custom `.fg` form group pattern containing `<label class="flabel">` and `<input class="finput">`. Without explicit `for` and `id` bindings, screen readers cannot associate the labels with inputs, and users cannot click labels to focus the fields.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs, especially when working with custom form group components.
