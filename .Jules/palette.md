@@ -1,0 +1,3 @@
+## 2024-10-24 - Explicit Form Label Bindings
+**Learning:** In custom `.fg` form group patterns, wrapping inputs in a div with a separate label requires explicit `for` and `id` bindings for screen reader support and to increase the clickable area of the inputs.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between `<label>` and `<input>`/`<textarea>` elements in custom form groups.
