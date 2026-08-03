@@ -1,0 +1,3 @@
+## 2024-05-24 - Explicit Label Binding in Form Groups
+**Learning:** The application uses a custom `.fg` form group pattern containing `<label class="flabel">` and `<input class="finput">`. Without explicit `for` and `id` bindings, the labels are not clickable to focus inputs, and screen readers lack proper context for the inputs.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between the labels and inputs for custom form patterns to ensure accessibility and better usability.
