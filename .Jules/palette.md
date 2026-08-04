@@ -1,0 +1,3 @@
+## 2024-05-18 - Form Label Associations
+**Learning:** Custom form group patterns (like `.fg` with `.flabel` and `.finput`) often lack implicit label wrapping, resulting in disconnected labels. Explicit `for` and `id` bindings are critical for screen readers and improve UX by allowing users to click the label to focus the input, which is especially helpful on mobile.
+**Action:** Always verify explicit `for` and `id` associations when reviewing custom form markup, particularly when labels and inputs are sibling elements rather than parent/child.
