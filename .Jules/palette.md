@@ -1,0 +1,3 @@
+## 2026-08-08 - Explicit Form Label Bindings
+**Learning:** This application uses a custom `.fg` form group pattern, but the `<label>` elements were missing `for` attributes and `<input>` elements were missing `id` attributes. Implicit wrapping wasn't used either, breaking basic click-to-focus and screen reader association.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs in custom form groups to maintain accessibility and UX.
