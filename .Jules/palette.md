@@ -1,0 +1,3 @@
+## 2024-10-25 - Form Label Bindings in Custom Groups
+**Learning:** Custom form group patterns (`.fg`) with visually styled labels (`.flabel`) and inputs (`.finput`) often lack explicit `for` and `id` bindings. This prevents screen readers from associating the label with the input and breaks the native click-to-focus behavior, harming accessibility and usability.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs in custom form groups to maintain semantic meaning, keyboard accessibility, and proper screen reader support.
