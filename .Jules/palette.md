@@ -1,0 +1,3 @@
+## 2024-03-21 - Explicit Form Associations in Custom Form Groups
+**Learning:** Found that custom `.fg` form groups lacked explicit `for` and `id` bindings between `<label>` and `<input>`/`<textarea>` elements. This breaks click-to-focus behavior for mouse users and programmatic association for screen readers, significantly degrading accessibility.
+**Action:** Always implement explicit `for` and `id` attributes matching labels to inputs, especially in custom-styled form components that might otherwise rely on visual proximity.
