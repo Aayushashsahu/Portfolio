@@ -1,0 +1,3 @@
+## 2024-06-06 - Explicit Form Label Bindings
+**Learning:** Found a pattern of `.fg` form groups using `<label>` and `<input>` visually grouped but lacking explicit `for` and `id` bindings. This causes screen readers to not properly associate the label with its respective input, degrading the form's accessibility.
+**Action:** Applied explicit `for` and `id` attributes matching `contact-[field]` to ensure robust accessibility. Will continue to check `.fg` groups for missing bindings in the future.
