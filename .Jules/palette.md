@@ -1,0 +1,3 @@
+## 2024-03-24 - Add explicit label bindings to contact form
+**Learning:** Custom `.fg` form groups visually pair labels and inputs, but without explicit `for` and `id` bindings, screen readers cannot programmatically associate the `<label>` with its corresponding `<input>` or `<textarea>`. This violates accessibility standards and degrades the experience for keyboard and screen reader users.
+**Action:** Always ensure that every `<label>` has a `for` attribute that exactly matches the `id` of its corresponding input element. Do not rely solely on visual proximity or generic wrapper classes.
