@@ -1,0 +1,3 @@
+## 2024-11-20 - Ensure Explicit Form Label Bindings in `.fg` Form Group Pattern
+**Learning:** Found a specific pattern in this app's `.fg` form groups where `<label class="flabel">` and `<input class="finput">` elements were used sequentially but lacked explicit `for` and `id` bindings, which breaks screen reader association.
+**Action:** Always verify and enforce explicit `for`/`id` bindings when working with custom form group components that don't inherently associate labels with inputs.
