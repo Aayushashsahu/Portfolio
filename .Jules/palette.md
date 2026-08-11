@@ -1,0 +1,3 @@
+## 2024-05-14 - Explicit Form Label Bindings in Custom Form Groups
+**Learning:** In custom form group patterns (like `.fg` wrappers with `.flabel` and `.finput`), screen readers cannot implicitly associate labels with inputs based purely on visual proximity or being within the same container div.
+**Action:** Always implement explicit `for` and `id` bindings between `<label>` and `<input>`/`<textarea>` elements, even when they are visually grouped by CSS classes, to ensure proper accessibility and screen reader support.
