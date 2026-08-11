@@ -1,0 +1,3 @@
+## 2025-01-20 - Explicit Form Label Bindings for Custom UI Components
+**Learning:** In custom UI patterns like the `.fg` form group class used here, implicit wrapping isn't always utilized to associate labels with inputs. Without explicit `for` and `id` bindings, screen readers fail to announce the field context when the user navigates into the input or textarea, making the form highly inaccessible. Furthermore, explicit bindings increase the clickable area, so clicking the label correctly focuses the corresponding input.
+**Action:** Always ensure that custom form components, even when visually grouped, explicitly bind `<label>` elements to their corresponding `<input>` or `<textarea>` using matching `for` and `id` attributes.
