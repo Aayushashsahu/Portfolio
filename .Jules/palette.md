@@ -1,0 +1,3 @@
+## 2024-03-24 - Missing Explicit Label Bindings in `.fg` Form Groups
+**Learning:** The application uses a custom `.fg` form group pattern containing `<label class="flabel">` and `<input class="finput">`. Without explicit `for` and `id` bindings, screen readers cannot properly associate labels with their inputs, reducing accessibility.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between the labels and inputs when using the `.fg` pattern.
