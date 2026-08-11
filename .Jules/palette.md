@@ -1,0 +1,3 @@
+## 2024-03-24 - Implicit vs Explicit Form Bindings
+**Learning:** Found an accessibility issue pattern specific to custom form components using `.fg` classes. While labels and inputs were grouped visually, they lacked explicit `for` and `id` bindings. This prevents screen readers from properly associating the label with its input and means users cannot click the label text to focus the field, making the target click area smaller.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs, even when visually grouped within a container like `.fg`.
