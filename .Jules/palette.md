@@ -1,0 +1,3 @@
+## 2024-03-24 - Form Label Accessibility Binding
+**Learning:** This app uses a custom form styling setup with `.fg` wrapper classes containing separated `<label>` and `<input>`/`<textarea>` elements. Visually they align well, but without explicit `for` -> `id` attribute binding, clicking the label does not focus the input, and screen readers fail to associate the prompt with the input field. This significantly impacts accessibility, especially given the minimalist design.
+**Action:** When implementing custom form field layouts where labels and inputs aren't natively wrapping each other, always explicitly bind them using matching `for` and `id` attributes. This fixes click targets and screen reader context simultaneously with zero visual change.
