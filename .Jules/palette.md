@@ -1,0 +1,3 @@
+## 2025-02-23 - Accessibility gap in `.fg` form group pattern
+**Learning:** The app's custom `.fg` form group pattern separates `<label class="flabel">` and `<input class="finput">` without any `for`/`id` bindings. This pattern breaks screen reader context across the entire contact section and makes hit targets unexpectedly small on mobile.
+**Action:** When reusing or expanding the `.fg` form pattern in the future, always implement explicit `for` and `id` bindings between the label and input/textarea.
