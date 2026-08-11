@@ -1,0 +1,3 @@
+## 2024-05-24 - Explicit Form Label Associations
+**Learning:** In structurally simple pure-HTML forms, labels and inputs might be visually grouped using wrappers (like `.fg`) but lack semantic association. Screen readers rely on explicit `for` and `id` linking to correctly announce inputs, and adding it allows users to click the label to focus the field, a subtle but critical UX enhancement.
+**Action:** Always link `<label for="X">` with `<input id="X">` in HTML forms, and use explicit `required` attributes to let the browser handle basic validation and screen reader announcements.
