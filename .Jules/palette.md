@@ -1,0 +1,3 @@
+## 2025-01-08 - Added ARIA labels to .fg component pattern
+**Learning:** Found an accessibility issue pattern specific to this app's `.fg` form components where `<label>` and `<input>`/`<textarea>` were missing explicit `for`/`id` bindings. This causes screen readers to not properly announce form labels when focusing on the inputs.
+**Action:** Always ensure any new or modified `.fg` form groups have explicit `for` and `id` bindings between labels and inputs to improve screen reader accessibility.
