@@ -1,0 +1,3 @@
+## 2024-08-14 - Explicit Form Bindings for Custom UI
+**Learning:** Custom form group patterns often miss native accessibility features like clicking the label to focus the input. Explicit `for` and `id` bindings are required for screen readers and improving hit areas for users.
+**Action:** Always ensure explicit `for` and `id` attributes are implemented between labels and inputs in custom form components.
