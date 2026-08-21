@@ -1,0 +1,3 @@
+## 2025-01-30 - Form Label Bindings
+**Learning:** In the `.fg` form group pattern, inputs and textareas were visually labelled but lacked explicit `for` and `id` bindings, preventing screen readers from associating the label with the input and making it harder for mouse users to focus the input by clicking the label.
+**Action:** Always ensure explicit `for` and `id` attributes are used to bind labels to their respective inputs and textareas.
