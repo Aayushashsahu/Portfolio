@@ -1,0 +1,3 @@
+## 2024-05-18 - Missing label bindings in .fg pattern
+**Learning:** Custom form group patterns (like `.fg` with `.flabel` and `.finput`) often lack explicit `for` and `id` bindings because they are styled visually. This breaks screen reader associations and prevents clicking the label to focus the input.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs in custom form groups.
