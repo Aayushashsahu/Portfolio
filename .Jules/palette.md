@@ -1,0 +1,3 @@
+## 2026-08-28 - Form Label Accessibility
+**Learning:** Found that custom `.fg` form groups lacked explicit `for` and `id` bindings between labels and inputs, which degrades screen reader accessibility and prevents clicking the label to focus the input.
+**Action:** Always ensure explicit `for` and `id` attributes are used to associate `<label>` and `<input>`/`<textarea>` elements in custom form group patterns.
