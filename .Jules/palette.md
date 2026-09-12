@@ -1,0 +1,3 @@
+## 2024-05-18 - Explicit Label Associations in Form Groups
+**Learning:** The custom `.fg` form group pattern with `.flabel` and `.finput` visually groups labels and inputs but lacks programmatic association for screen readers, breaking standard accessibility guidelines for form fields.
+**Action:** Always implement explicit `for` and `id` bindings between `<label>` and its corresponding `<input>` or `<textarea>` elements to ensure screen readers correctly announce the field names and users can click the label to focus the input.
