@@ -1,0 +1,3 @@
+## 2024-05-18 - Form Accessibility: Explicit Label Bindings
+**Learning:** Visual proximity isn't enough for robust accessibility. The custom `.fg` pattern with `<label class="flabel">` and `<input class="finput">` in this app requires explicit `for` and `id` bindings for screen readers to reliably associate labels with their respective inputs.
+**Action:** Always verify and implement explicit `for` and `id` attributes when creating or modifying form groups to ensure proper semantic structure and assistive technology compatibility.
