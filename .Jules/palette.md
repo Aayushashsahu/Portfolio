@@ -1,0 +1,3 @@
+## 2024-05-24 - Explicit Form Label Binding
+**Learning:** The application uses a custom `.fg` form group pattern where `<label>` and `<input>` elements are physically close but lack explicit `for` and `id` bindings. This causes accessibility issues for screen readers.
+**Action:** Always ensure explicit `for` and `id` bindings are implemented between labels and inputs, even within custom container wrappers.
