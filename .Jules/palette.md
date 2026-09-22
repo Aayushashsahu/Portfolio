@@ -1,0 +1,3 @@
+## 2025-05-18 - Form Label Explicit Bindings
+**Learning:** Screen readers and keyboard users require explicit `for` and `id` bindings to associate `<label>` elements with their corresponding `<input>` or `<textarea>` fields, especially when they are not nested.
+**Action:** Added `for` attributes to `.flabel` labels and matching `id` attributes to `.finput` and `.ftarea` elements in the contact form to ensure full accessibility.
